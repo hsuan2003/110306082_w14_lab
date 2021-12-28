@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+	<div id="result"></div>
+<body>
+	<script>
+		var data = window.prompt("input data");
+		var char = window.prompt("input a char to search");
+		var num1 = data.indexOf('o');
+		var num2 = data.lastIndexOf('o');
+		var num3 = data.indexOf('o', 3);
+		document.getElementById("result").innerHTML = num1 + "<br>" + num2 + "<br>" + num3;
+	</script>
+</body>
+</html>
+
+
